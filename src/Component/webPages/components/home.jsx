@@ -1,7 +1,8 @@
 import React from 'react';
-import CustomerItem from './customerItems';
+import HomeItem from './homeItems';
 
-    const Customer = () => (
+
+    const Home = () => (
         <div>
         <div>
             <canvas className="container" id="container" role="main"></canvas>
@@ -10,7 +11,7 @@ import CustomerItem from './customerItems';
                 <p className="desc">Skräddarsy ditt tv tittande hos oss</p>
             </div>
             <div>
-                <table className="customerTable">
+                <table className="homeTable">
                     <thead>
                     <tbody>
                         <tr>
@@ -23,8 +24,8 @@ import CustomerItem from './customerItems';
         </div>
         <div className="blur blurTop"><canvas className="canvas" id="blurCanvasTop"> </canvas></div>
         <div className="blur blurBottom"><canvas width="1000px" height="1000px" className="canvas" id="blurCanvasBottom"></canvas></div>
-            <CustomerItem />
+            <HomeItem />
         </div>
     );
-export default Customer;
+export default Home;
 

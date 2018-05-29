@@ -1,32 +1,32 @@
-.customer-form {
+.home-form {
     margin: 70px;
 }
-.customer-input-field {
+.home-input-field {
     position: relative;
     line-height: 30px;
     margin-bottom: 30px;
     margin-top: 50px;
 }
-.customer-label {
+.home-label {
     position: absolute;
     top: 0;
     width: 100%;
     color: #d3d3d3;
     transition: 0.2s all;
 }
-.customer-input {
+.home-input {
     width: 100%;
     border: 0;
     outline: 0;
     padding: 0;
     border-bottom: 2px solid #d3d3d3;
 }
-.customer-input:focus,
-.customer-input:valid {
+.home-input:focus,
+.home-input:valid {
     border-color: #1f2729;
 }
-.customer-input:focus~label,
-.customer-input:valid~label {
+.home-input:focus~label,
+.home-input:valid~label {
     top: -24px;
     color: #bfbfbf;
 }
@@ -70,7 +70,7 @@ h3 {
     padding-top:60px ;
 }
 
-table.customerTable {
+table.homeTable {
     width: 100%;
     background-color: #ffffff;
     border-collapse: collapse;
@@ -80,7 +80,7 @@ table.customerTable {
     color: #000000;
 }
 
-table.customerTable thead {
+table.homeTable thead {
     background-color: #000000;
 }
 
